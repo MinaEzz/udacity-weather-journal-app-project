@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Weather Journal</title>
+<link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Ranga:400,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+ <body>
+<div id = "app">
+  <h1 class ="headline">
+    Weather Journal App
+  </h1>
+  <div class ="holder zip">
+    <input class="myInput" type="text" id="zip" placeholder="Enter zip code here" required>
+  </div>
+  <div class ="holder feel">
+    <textarea class= "myInput" id="feelings" placeholder="Enter your feelings here"></textarea>
+  </div>
+  <button id="generate" type = "submit"> Generate </button>
+  
+
+   <div id = "entryHolder">
+    <div id = "date" class="field-style"></div> 
+    <div id = "name" class="field-style"></div>
+   <div id = "temp" class="field-style"></div>
+   <div id = "content" class="field-style"></div>
+  </div>
+  </div>
+<script src="app.js" type="text/javascript"></script>
+</body>
+</html>
